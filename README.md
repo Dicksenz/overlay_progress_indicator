@@ -7,6 +7,10 @@ A simple overlay progress indicator with custom widgets and loaders.
 
 ## Usage with custom widget
 
+<div style="display:flex">
+<img width="355" alt="alert2" src="https://user-images.githubusercontent.com/44444254/174962279-62a87354-a070-49a1-ab30-5de0a367b618.gif" width="200">
+<div/>
+
 ```dart
 import 'package:flutter/material.dart';
 import 'package:overlay_progress_indicator/overlay_progress_indicator.dart';
@@ -74,6 +78,10 @@ class TestScreen extends StatelessWidget {
 ```
 
 ## Usage default loader
+
+<div style="display:flex">
+<img width="355" alt="alert2" src="https://user-images.githubusercontent.com/44444254/174962890-f8e463d6-56bb-4eab-a6a7-92eabe8cad27.gif" width="200">
+<div/>
 
 ```dart
 

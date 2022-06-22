@@ -1,6 +1,6 @@
 name: overlay_progress_indicator
 description: A simple overlay progress indicator with custom widgets and loaders.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Dicksenz/overlay_progress_indicator
 
 environment:

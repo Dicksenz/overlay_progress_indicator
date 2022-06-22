@@ -28,26 +28,26 @@ class TestScreen extends StatelessWidget {
             OverlayProgressIndicator.show(
               context: context,
               backgroundColor: Colors.black45,
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(20.0),
-                ),
-                padding: const EdgeInsets.all(30.0),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  mainAxisSize: MainAxisSize.min,
-                  children: const [
-                    CircularProgressIndicator(),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    Text(
-                      'Loading',
-                    ),
-                  ],
-                ),
-              ),
+              // child: Container(
+              //   decoration: BoxDecoration(
+              //     color: Colors.white,
+              //     borderRadius: BorderRadius.circular(20.0),
+              //   ),
+              //   padding: const EdgeInsets.all(30.0),
+              //   child: Column(
+              //     mainAxisAlignment: MainAxisAlignment.center,
+              //     mainAxisSize: MainAxisSize.min,
+              //     children: const [
+              //       CircularProgressIndicator(),
+              //       SizedBox(
+              //         height: 10,
+              //       ),
+              //       Text(
+              //         'Loading',
+              //       ),
+              //     ],
+              //   ),
+              // ),
             );
 
             Future.delayed(const Duration(seconds: 2), () {
